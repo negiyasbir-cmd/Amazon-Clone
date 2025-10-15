@@ -1,0 +1,449 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: rgb(226, 218, 218);
+}
+
+nav {
+    height: 60px;
+    background-color: #0f1111;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.border {
+    border: 2px transparent solid;
+}
+
+.border:hover {
+    border: 1px white solid;
+}
+
+.amazonbox {
+    display: flex;
+    height: 50px;
+    width: 120px;
+    background-image: url("assests/amazon_logo.png");
+    background-size: cover;
+}
+
+.in {
+    color: white;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+.locationbox {
+    color: #cccccc;
+    height: 50px;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.locationicon {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.searchbox {
+    display: flex;
+    background-color: #eaa03f;
+    width: 730px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-input {
+    width: 87%;
+    height: 40px;
+
+}
+
+select {
+    width: 50px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.button {
+    font-size: 25px;
+    padding-top: 8px;
+    padding-left: 6px;
+}
+
+.languagebox {
+    background-color: aqua;
+    width: 23px;
+    height: 17px;
+    background-image: url("assests/indian\ flag.png");
+    background-size: cover;
+    display: flex;
+}
+
+.EN {
+    color: #ffffff;
+    margin-left: 24px;
+    font-weight: 600;
+}
+
+.hello {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.hellobox {
+    margin-left: 15px;
+}
+
+.account {
+    color: #ffffff;
+}
+
+.returns {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.order {
+    color: #ffffff;
+}
+
+.cartbox {
+    display: flex;
+    color: #cccccc;
+    font-size: 26px;
+    margin-top: 5px;
+}
+
+.cart {
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.pannelbox {
+    height: 39px;
+    background-color: #232f3e;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.all {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.main {
+    height: 340px;
+    background-image: url("assests/amazon\ front\ 1.jpeg");
+    background-size: cover;
+}
+
+.pannel1 {
+    background-color: rgb(226, 218, 218);
+    height: 400px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.pbox {
+    height: 400px;
+    width: 350px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.i1 {
+    background-color: rgb(188, 255, 18);
+    height: 70%;
+    background-image: url("assests/second.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.i2 {
+    background-color: rgb(188, 255, 18);
+    height: 70%;
+    background-image: url("assests/pannel1\ iage1.jpeg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.i3 {
+    background-color: rgb(188, 255, 18);
+    height: 70%;
+    background-image: url("assests/thrid.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.i4 {
+    background-color: rgb(188, 255, 18);
+    height: 70%;
+    background-image: url("assests/image4.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.seemore {
+    color: rgb(66, 66, 217);
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.h2 {
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.pannel2 {
+    height: 360px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    display: flex;
+    background-color: rgb(226, 218, 218);
+}
+
+.pbox1 {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 275px;
+}
+
+.p1 {
+    background-image: url("assests/p1.jpg");
+    background-size: cover;
+    height: 70%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.p2 {
+    background-image: url("assests/p2.jpg");
+    background-size: cover;
+    height: 70%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.p3 {
+    background-image: url("assests/p3.jpg");
+    background-size: cover;
+    height: 70%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.p4 {
+    background-image: url("assests/p4.jpg");
+    background-size: cover;
+    height: 70%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.p5 {
+    background-image: url("assests/p5.jpg");
+    background-size: cover;
+    height: 70%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.h22 {
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+.reddisco {
+    background-color: rgb(251, 41, 86);
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 5px;
+    color: hwb(0 91% 6%);
+}
+
+.pannel3 {
+    height: 220px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.pbox2 {
+    width: 225px;
+    background-color: violet;
+    height: 100%;
+}
+
+.heading3 {
+    margin-left: 30px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.f1 {
+    background-image: url("assests/p3\ 1.jpg");
+    background-size: cover;
+}
+
+.f2 {
+    background-image: url("assests/p3\ 2.jpg");
+    background-size: cover;
+}
+
+.f3 {
+    background-image: url("assests/p3\ 3.jpg");
+    background-size: cover;
+}
+
+.f4 {
+    background-image: url("assests/p3\ 4.jpg");
+    background-size: cover;
+}
+
+.f5 {
+    background-image: url("assests/p3\ 5.jpg");
+    background-size: cover;
+}
+
+.f6 {
+    background-image: url("assests/p3\ 6.jpg");
+    background-size: cover;
+}
+
+.pannel4 {
+    background-color: rgb(226, 218, 218);
+    height: 400px;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 40px;
+}
+
+.ii1 {
+    background-color: rgb(188, 255, 18);
+    height: 70%;
+    background-image: url("assests/festi1.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.ii2 {
+    background-color: rgb(188, 255, 18);
+    height: 70%;
+    background-image: url("assests/fesfes.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.ii3 {
+    background-color: rgb(188, 255, 18);
+    height: 70%;
+    background-image: url("assests/festi3.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.ii4 {
+    background-color: rgb(188, 255, 18);
+    height: 70%;
+    background-image: url("assests/festi4.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.pbox4 {
+    height: 400px;
+    width: 375px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.bottompannel {
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+.sign{
+    background-color: #ffd814;
+    width: 150px;
+    padding-left: 46px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+.bottomnav{
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: #232f3e;
+    display: flex;
+    padding-top: 20px;
+}
+a{
+    display: block;
+    color: #cccccc;
+    padding: 6px;
+    text-decoration:none;
+}
+.first{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: hsl(0, 0%, 100%);
+}
+.second{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: hsl(0, 0%, 100%);
+}
+.third{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: hsl(0, 0%, 100%);
+}
+.fourth{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: hsl(0, 0%, 100%);
+}
